@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Just the Recipe",
+  "version": "0.1",
+  "description": "Make recipes go to the top of the page.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "recipe.png"
+  }
+}
