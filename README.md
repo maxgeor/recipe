@@ -1,6 +1,4 @@
-# recipe
-Hey Gerrit!
-
+# Hey Gerrit!
 This is the chrome extension I made.
 
 The core code is in content.js.
